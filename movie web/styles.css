@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(20, 15, 0);
+    color: white;
+  }
+
+  .logo h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    z-index: 1000;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .search-bar input {
+    width : 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    color: rgb(5, 5, 5);
+    background-color: rgb(253, 251, 251);
+    border-radius: 5px;
+  }
+
+  .search-bar input::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: #555;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .search-bar button img {
+    width: 18px;
+    height: 18px;
+  }
+
+  
+  .content {
+    margin-top: 100px;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    margin-bottom: 20px;
+  }
+  
+  .header {
+    height: 1000px;
+    background-image: url('./pics/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: white;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .genres {
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+
+  .header-genres h2 {
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .genres-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .genres-pics img {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  .genres-pics p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .genres-pics img:hover {
+    transform: scale(1.05);
+  }
+
+  .top h1 {
+    font-size: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    color:rgb(118, 103, 252);
+  }
+
+  .top-movies {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 100px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .movie img {
+    border-radius: 10px;
+    margin-right: 30px;
+    width: 200px;
+    height: 250px;
+  }
+
+  .movie p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .movie img:hover {
+    transform: scale(1.05);
+  }
+
+  .subscribe {
+    text-align: center;
+  }
+
+  .subscribe h1 {
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .subscribe p {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+   
+  .feed button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #email {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  #email::placeholder {
+    text-align: center;
+  }
+
+  .footer section {
+    background-color: #010101;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
